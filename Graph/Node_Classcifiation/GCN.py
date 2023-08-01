@@ -19,7 +19,6 @@ graph = split(graph)
 
 
 # Model
-# 데이터를 훈련, 검증, 테스트 set으로 나눔
 class GCN(torch.nn.Module):
     def __init__(self):
         super().__init__()
